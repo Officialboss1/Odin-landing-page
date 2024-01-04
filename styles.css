@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #1f2937;
+    height: 600px;
+    color: #f9faf8;
+}
+
+.manu-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.manu {
+    padding-left: 15px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #f9faf8;
+    padding-left: 10px;
+}
+
+.logo {
+    font-family: "Courier New", Courier, monospace;
+    color: #f9faf8;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.title-head {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 36px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn {
+    background-color: #4b5560;
+    color: #f9faf8;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+.some-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #1f2937;
+}
+
+.features {
+    align-content: center;
+}
+
+.features-img {
+    display: flex;
+    justify-content: center;
+}
+
+.some-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    justify-content: center;
+}
+
+.t-text {
+    align-self: center;
+    font-style: italic;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.cta-text {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 35px;
+    padding: 40px;
+    background-color: #3882f6;
+    width: 900px;
+}
+
+.cta-btn-btn {
+    margin-top: 15px;
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+#text {
+    color: #f9faf8;
+    font-size: 25px;
+}
+
+.text-t {
+    color: #e5e7eb;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}

@@ -7,7 +7,7 @@
 
 nav {
     background-color: #1f2937;
-    height: 600px;
+    height: 550px;
     color: #f9faf8;
 }
 
@@ -61,6 +61,7 @@ nav {
 }
 
 .btn {
+    margin-top: 10px;
     background-color: #4b5560;
     color: #f9faf8;
     padding: 12px;
@@ -69,6 +70,7 @@ nav {
 }
 
 .some-text {
+    margin-top: 15px;
     text-align: center;
     font-size: 36px;
     font-weight: bold;
@@ -88,6 +90,23 @@ nav {
 .some-img {
     display: flex;
     justify-content: space-between;
+}
+
+.image {
+    border: 4px solid #3882f6;
+    height: 140px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.img-1-text{
+    text-align: center;
+    padding: 0 10px;
+    color: #838486ea;
+}
+
+.container {
+    height: 400px;
 }
 
 .testimonial {
@@ -131,6 +150,7 @@ nav {
 #text {
     color: #f9faf8;
     font-size: 25px;
+    padding: 10px;
 }
 
 .text-t {
